@@ -25,6 +25,8 @@ Hiện tại có 23 mẫu được chia thành 3 nhóm:
 ![](img/creational-patterns.png)
 
 1. Singleton
+    - Definition: Đảm bảo 1 class chỉ có 1 instance và cung cấp 1 điểm truy xuất toàn cục đến nó.
+    ![](img/singleton-example.png)
 
 2. Factory Method
     - Definition: Định nghĩa Interface để sinh ra đối tượng nhưng để cho lớp con quyết định lớp nào được dùng để sinh ra đối tượng.
@@ -51,10 +53,19 @@ Hiện tại có 23 mẫu được chia thành 3 nhóm:
 ![](img/structural-patterns.png)
 
 6. Adapter
+    - Definition: Do vấn đề tương thích, thay đổi interface của một lớp thành một interface khác phù hợp với yêu cầu người sử dụng lớp.
 
 7. Bridge
+    - Definition: Tách tính trừu tượng (abstraction) ra khỏi tính hiện thực (implementation) của nó. Từ đó có thể dễ dàng chỉnh sửa hoặc thay thế mà không làm ảnh hưởng đến những nơi có sử dụng lớp ban đầu.
+    - Adapter Pattern làm cho mọi thứ có thể hoạt động với nhau sau khi chúng đã được thiết kế (đã tồn tại). Bridge Pattern nên được thiết kế trước khi phát triển hệ thống để Abstraction và Implementation có thể thực hiện một cách độc lập.
+
+    ![](img/bridge-example.png)
 
 8. Composite
+    - Definition: Tổ chức các đối tượng theo cấu trúc phân cấp dạng cây. Tất cả các đối tượng trong cấu trúc được thao tác theo một cách thuần nhất như nhau.
+    - Tạo quan hệ thứ bậc bao gộp giữa các đối tượng. Client có thể xem đối tượng bao gộp và bị bao gộp như nhau -> khả năng tổng quát hoá trong code của client -> dễ phát triển, nâng cấp, bảo trì.
+
+    ![](img/composite-example.png)
 
 9. Decorator
     - Definition: Cho phép người dùng thêm chức năng mới vào đối tượng hiện tại mà không muốn ảnh hưởng đến các đối tượng khác.
@@ -102,7 +113,15 @@ Hiện tại có 23 mẫu được chia thành 3 nhóm:
     - ConcreteIterator (MenuItemIterator): cài đặt các phương thức của Iterator, giữ index khi duyệt qua các phần tử.
 
 16. Mediator
+    - Definition: Định nghĩa một đối tượng để bao bọc việc giao tiếp giữa một - nhiều đối tượng với nhau.
+    
+    ![](img/mediator-example-chat-flow.png)
+
+    ![](img/mediator-example.png)
+
 17. Memento
+    - Definition: Hiệu chỉnh và trả lại như cũ trạng thái bên trong của đối tượng mà vẫn không vi phạm việc bao bọc dữ liệu.
+
 18. Observer
     - Definition: Định nghĩa sự phụ thuộc một hoặc nhiều chiều giữa các đối tượng sao cho khi một đối tượng thay đổi trạng thái thì tất cả các đối tượng phụ thuộc nó cũng thay đổi theo.
     - Observer có thể đăng ký với hệ thống. Khi hệ thống có sự thay đổi, hệ thống sẽ thông báo cho Observer biết. Khi không cần nữa, mẫu Observer sẽ được gỡ khỏi hệ thống.
@@ -115,6 +134,10 @@ Hiện tại có 23 mẫu được chia thành 3 nhóm:
     - Logger, Mailer và Protector là các ConcreteObserver. Sau khi nhận được thông báo rằng có thao tác với user và gọi tới phương thức update(), các ConcreteObserver sẽ sử dụng dữ liệu SubjectState để xử lý.
 
 19. State
+    - Definition: Cho phép một đối tượng thay đổi hành vi khi trạng thái bên trong của nó thay đổi.
+
+    ![](img/state-example.png)
+
 20. Strategy
     - Definition: Định nghĩa một họ các thuật toán, đóng gói từng thuật toán và hoán đổi sử dụng giữa chúng. Strategy cho phép thuật toán biến đổi độc lập với người dùng.
 
@@ -125,5 +148,9 @@ Hiện tại có 23 mẫu được chia thành 3 nhóm:
     - Context (SortedList): chứa một tham chiếu đến đối tượng Strategy và nhận các yêu cầu từ Client, các yêu cầu này sau đó được ủy quyền cho Strategy thực hiện.
 
 21. Template method
+    - Definition: Định nghĩa phần khung của một thuật toán gọi đến một số phương thức chưa được cài đặt trong lớp cơ sở; việc cài đặt các phương thức được ủy nhiệm cho các lớp kế thừa.
+    
+    ![](img/template-method-example.png)
 
 22. Vistor
+    - Definition: Cho phép định nghĩa thêm phép toán mới tác động lên các phần tử của một cấu trúc đối tượng mà không cần thay đổi các lớp định nghĩa cấu trúc đó.
