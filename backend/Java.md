@@ -1,16 +1,18 @@
 # Java
 
 ## Table of Content
-1. [OOP Principles](#oop-principles)
+1. [Java Core](#java-core)
 2. [Design Patterns](#design-pattern)
 
 #
-## OOP Principles
-There are 4 main principles for OOP:
-    1. Encapsulation
-    2. Abstraction
-    3. Polymorphism
-    4. Inheritance
+## Java Core
+
+### There are 4 main principles for OOP:
+1. Encapsulation
+2. Abstraction
+3. Polymorphism
+4. Inheritance
+
 
 #
 ## Design Patterns
