@@ -1,6 +1,8 @@
 # Interview Questions
 This is my note about the interview questions or skills that i was asked.
 
+**Note: These references are suitable to the __junior__ position*
+
 ## Backend Developer
 1. English Speaking
 2. OOP principles
