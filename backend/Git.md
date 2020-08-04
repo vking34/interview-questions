@@ -35,3 +35,4 @@ There are three main components of a Git project:
 
 4. What is the function of ```git reset```?
     - ```git reset``` is to reset your index as well as the working directory to the state of a specific commit.
+

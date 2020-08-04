@@ -8,11 +8,19 @@
 ## Java Core
 
 ### There are 4 main principles for OOP:
-1. Encapsulation
-2. Abstraction
-3. Polymorphism
-4. Inheritance
+1. __Encapsulation__
+    - Là trạng thái của đối tượng được bảo vệ không cho các truy cập từ code bên ngoài như thay đổi trong thái hay nhìn trực tiếp. Việc cho phép môi trường bên ngoài tác động lên các dữ liệu nội tại của một đối tượng theo cách nào là hoàn toàn tùy thuộc vào người viết mã.
+2. __Inheritance__
+    - Khả năng cho phép ta xây dựng một lớp mới dựa trên các định nghĩa của một lớp đã có.
 
+3. __Polymorphism__
+    - Khi một tác vụ được thực hiện theo nhiều cách khác nhau
+    - Trong Java, chúng ta sử dụng nạp chồng phương thức (method overloading) và ghi đè phương thức (method overriding) để có tính đa hình:
+        - __Nạp chồng (Overloading)__: Đây là khả năng cho phép một lớp có nhiều thuộc tính, phương thức cùng tên nhưng với các tham số khác nhau về loại cũng như về số lượng.
+        - __Ghi đè (Overriding)__: là hai phương thức cùng tên, cùng tham số, cùng kiểu trả về nhưng thằng con viết lại và dùng theo cách của nó, và xuất hiện ở lớp cha và tiếp tục xuất hiện ở lớp con. 
+4. __Abstraction__
+    - Ẩn các chi tiết trình triển khai và chỉ hiển thị tính năng tới người dùng.
+    - Trong Java, chúng là sử dụng __abstract class__ và __abstract interface__ để có tính trừu tượng.
 
 #
 ## Design Patterns
