@@ -13,6 +13,8 @@ This is my note about the interview questions or skills that i was asked.
         - Decorator
         - Observer
 4. Multithreading
+5. Webserver
+6. Transaction
 
 
 ## DevOps Engineerer
