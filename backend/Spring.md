@@ -84,3 +84,4 @@
     - __@Repository__ annotation is used to indicate that a component is used as repository and a mechanism to store/retrieve/search data. We can apply this annotation with DAO pattern implementation classes.
     - __@Service__ is used to indicate that a class is a Service. Usually, the business facade classes that provide some services are annotated with this.
 
+5. DispatcherServlet

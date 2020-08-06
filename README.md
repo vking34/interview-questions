@@ -15,7 +15,7 @@ This is my note about the interview questions or skills that i was asked.
 4. Multithreading
 5. Webserver
 6. Transaction
-
+7. Comparison between MySQL vs Monogodb
 
 ## DevOps Engineerer
 1. Docker
