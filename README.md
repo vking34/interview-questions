@@ -16,6 +16,8 @@ This is my note about the interview questions or skills that i was asked.
 5. Webserver
 6. Transaction
 7. Comparison between MySQL vs Monogodb
+8. Differences between Postgres (MySQL) and MongoDB
+9. What is index? How it works?
 
 ## DevOps Engineerer
 1. Docker
