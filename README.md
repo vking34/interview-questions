@@ -19,6 +19,29 @@ This is my note about the interview questions or skills that i was asked.
 8. Differences between Postgres (MySQL) and MongoDB
 9. What is index? How it works?
 
+## Architecture
+1. Pros and cons of Microservices?
+- Pros:
+    - Enables the continuous delivery and deployment of large, complex applications.
+        - Improved maintainability
+        - Better testability
+        - Better deployability
+        
+    - Each microservice is relatively small:
+        - Easier for a dev to understand
+        - App starts faster, speeds up deployments.
+    - Improved fault isolation.
+    - Eliminates any long-term commitment to technology stack.
+- Cons:
+    - The additional complexity complexity of creating a distributed system:
+        - The inter service communication mechanism.
+        - Testing the interactions between services is more difficult.
+        - Request that span multiple services is more difficult.
+    - Deployment complexity.
+    - Increased resource consumption.
+
+2. MVC
+
 ## DevOps Engineerer
 1. Docker
 2. Kubernetes
