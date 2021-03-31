@@ -23,6 +23,7 @@ This is my note about the interview questions or skills that i was asked.
 7. Comparison between MySQL vs Monogodb
 8. Differences between Postgres (MySQL) and MongoDB
 9. What is index? How it works?
+10. Standards for the response time? benmark tools? 
 
 ## Architecture
 1. Pros and cons of Microservices?
