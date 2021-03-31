@@ -10,8 +10,13 @@ This is my note about the interview questions or skills that i was asked.
     - Naming design patterns you know
     - Important patterns:
         - Builder
-        - Decorator
         - Observer
+        - State
+        - Singleton
+        - Factory
+        - Adapter
+        - Decorator
+
 4. Multithreading
 5. Webserver
 6. Transaction
